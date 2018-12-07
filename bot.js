@@ -14,9 +14,9 @@ client.on('ready', () => { // know if our bot is online
 
 client.on('message', message => { // When the message a message is executed
 
-    if (message.content === 'ping') { // if that message matches ping
+    if (message.content === 'kys') { // if that message matches ping
 
-       message.reply('pong'); // 
+       message.reply('@everyone kys kys kys'); // 
 
        }
 
