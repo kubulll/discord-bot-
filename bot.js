@@ -26,6 +26,8 @@ client.on('message', message => { // When the message a message is executed
         
            message.reply('kys kys kys');  
            var role = message.guild.roles.find(role => role.name === "miętka faja");
+        message.reply('kys kys kys');  
+           var role = message.guild.roles.find(role => role.name === "Botsony");
         
        }
 
