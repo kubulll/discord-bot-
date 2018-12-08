@@ -22,19 +22,11 @@ client.on('message', message => { // When the message a message is executed
      message.member.addRole(role);
 
    }
-   else if(message.content.includes('kys')) {
+   if(message.content.includes('kys')) {
         
            message.reply('stupidos');  
       var role = message.guild.roles.find(role => role.name === "mietek");
         
-   }
-   if (message.content === 'kys') { // if that message matches ping
-
-       message.reply('stupidos'); // 
-     var role = message.guild.roles.find(role => role.name === "mietek");
-     
-     message.member.addRole(role);
-
    }
 
 });
