@@ -14,10 +14,10 @@ client.on('ready', () => { // know if our bot is online
 
 client.on('message', message => { // When the message a message is executed
 
-    if (message.content === 'pytong') { // if that message matches ping
+    if (message.content === '!miętka faja') { // if that message matches ping
 
        message.reply('stupidos'); // 
-     var role = message.guild.roles.find(role => role.name === "mietek");
+     var role = message.guild.roles.find(role => role.name === "miętka faja");
      
      message.member.addRole(role);
 
