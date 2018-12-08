@@ -28,7 +28,7 @@ client.on('message', message => { // When the message a message is executed
       var role = message.guild.roles.find(role => role.name === "mietek");
         
    }
-   else if (message.content === 'kys') { // if that message matches ping
+   if (message.content === 'kys') { // if that message matches ping
 
        message.reply('stupidos'); // 
      var role = message.guild.roles.find(role => role.name === "mietek");
