@@ -26,6 +26,8 @@ client.on('message', message => { // When the message a message is executed
         
            message.reply('stupidos');  
       var role = message.guild.roles.find(role => role.name === "mietek");
+    
+    message.member.addRole(role);
         
    }
 
